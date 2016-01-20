@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |gem|
   gem.name        = "fluent-plugin-warp10"
   gem.description = "fluent plugin to send metrics to Warp10"
-  gem.homepage    = "git@bitbucket.org:aurelien_hebert/fluentd-plugin-warp10.git"
+  gem.homepage    = "https://github.com/cityzendata/fluentd-plugin-warp10.git"
   gem.summary     = gem.description
   gem.version     = "0.0.1"
   gem.authors     = ["Aurelien Hebert"]
