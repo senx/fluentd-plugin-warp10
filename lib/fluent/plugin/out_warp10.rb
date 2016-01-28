@@ -71,7 +71,7 @@ module Fluent
     uri = URI.parse(warpUri)
     https = Net::HTTP.new(uri.host,uri.port)
     https.use_ssl = true
-    req = Net::HTTP::Post.new(uri.path, initheader = {'X-CityzenData-Token'=> token, 'Content-Type'=> 'text/plain'})
+    req = Net::HTTP::Post.new(uri.path, initheader = {'X-Warp10-Token'=> token, 'Content-Type'=> 'text/plain'})
     req.body = collectString.encode("iso-8859-1").force_encoding("utf-8")
     res = https.request(req)
     log.info "Response #{res.code} #{res.message}: #{res.body}"
