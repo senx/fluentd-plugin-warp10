@@ -1,9 +1,10 @@
 # README #
-Fluentd plugin used to push data on Warp10. This plugin is type OutputBuffer (http://docs.fluentd.org/articles/plugin-development#writing-buffered-output-plugins).
+
+Fluentd plugin used to push data on Warp 10. This plugin is type OutputBuffer (http://docs.fluentd.org/articles/plugin-development#writing-buffered-output-plugins).
 
 ### fluentd-plugin-warp10 ###
 
-* fluent plugin to send metrics to Warp10
+* fluent plugin to send metrics to Warp 10
 
 ### Install ###
 
@@ -29,10 +30,10 @@ td-agent-gem install fluent-plugin-warp10-0.0.1.gem
 </match>
 
 ```
-Word ** correspond  to the fluentd tag you want to match. When there is a match fluentd will use this output to send values of all tags in Warp10. warpUri is the uri to reach on cityzendata.com. You have to put a write token and a set a class name wich will prefix your GTS name. Flush interval correspond to the time in second between two post.
+Word ** corresponds to the fluentd tag you want to match. When there is a match fluentd will use this output to send values of all tags to Warp 10. warpUri is the uri to reach your Warp 10 instance. You have to put a write token and set a class name wich will prefix your Geo Time Series names. Flush interval corresponds to the time in seconds between two posts.
 
 * Reload fluentd
 
 ### Contact ###
 
-* contact@cityzendata.com
+* contact@senx.io

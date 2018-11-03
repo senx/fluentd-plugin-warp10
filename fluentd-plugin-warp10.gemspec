@@ -2,12 +2,12 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name        = "fluent-plugin-warp10"
-  gem.description = "fluent plugin to send metrics to Warp10"
-  gem.homepage    = "https://github.com/cityzendata/fluentd-plugin-warp10.git"
+  gem.description = "fluent plugin to send metrics to Warp 10"
+  gem.homepage    = "https://github.com/senx/fluentd-plugin-warp10.git"
   gem.summary     = gem.description
   gem.version     = "0.0.1"
   gem.authors     = ["Aurelien Hebert"]
-  gem.email       = "contact@cityzendata.com"
+  gem.email       = "contact@senx.io"
   gem.has_rdoc    = false
   gem.files       = ["lib/fluent/plugin/out_warp10.rb"]
   gem.require_paths = ['lib']
