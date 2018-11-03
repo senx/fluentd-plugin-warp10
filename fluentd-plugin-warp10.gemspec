@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.homepage    = "https://github.com/senx/fluentd-plugin-warp10.git"
   gem.summary     = gem.description
   gem.version     = "0.0.1"
-  gem.authors     = ["Aurelien Hebert"]
+  gem.authors     = ["SenX S.A.S."]
   gem.email       = "contact@senx.io"
   gem.has_rdoc    = false
   gem.files       = ["lib/fluent/plugin/out_warp10.rb"]
